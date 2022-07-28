@@ -8,13 +8,15 @@
     <title>Bootstrap Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- header start -->
     <header class="container">
         <!-- nav start -->
-        <nav class="navbar navbar-expand-md bg-light py-4">
-            <h1><a class="navbar-brand" href="#">Pro Edu</a></h1>
+        <nav class="navbar navbar-expand-lg bg-light py-4">
+            <h1><a class="navbar-brand fs-2" href="#">Code's Lover</a></h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -27,7 +29,7 @@
                     <li class="nav-items"><a class="nav-link" href="#">Success</a></li>
                     <li class="nav-items"><a class="nav-link" href="#">About</a></li>
                 </ul>
-                <input class="h4" value="Register" type="Submit" name="" id="">
+                <input class="h4 btn btn-outline-primary" value="Register" type="Submit" name="" id="">
             </div>
         </nav>
         <!-- nav end -->
@@ -70,7 +72,9 @@
         </section>
         <!-- slider section end -->
     </header>
+    <!-- header end -->
     <main>
+        <!-- Course section start -->
         <section class="container mt-5">
             <div class="text-center">
                 <h1 class="font-weight-bolder">Discover Our Popular Course</h1>
@@ -79,71 +83,164 @@
             </div>
             <!-- 1 -->
             <div class="row">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Price: 20$</small></p>
+                <div class="col-md-12 col-lg-6">
+                    <div class="card mb-4">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="image/images/course/course-1.png" class="w-100 rounded" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Fundamental Of UI/UX Design</h5>
+                                    <p class="card-text">The UI/UX Design Specialization brings a design-centric
+                                        approach to user interface and user experience design, and offers practical.</p>
+                                    <small class="card-text"><a
+                                            class="navbar-brand text-body fs-5 fw-bold">Price:$20</a></small>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- 2 -->
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Price: 20$</small></p>
+                <div class="col-md-12 col-lg-6">
+                    <div class="card mb-4">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="image/images/course/course-2.png" class="w-100" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Javascript Basic to advanced</h5>
+                                    <p>The modern JavaScript course for everyone! Master JavaScript with projects,
+                                        challenges and theory. Many courses in one!</p>
+                                    <small class="card-text"><a class="navbar-brand text-body fs-5 fw-bold"
+                                            href="">price:$30</a></small>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- 3 -->
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Price: 20$</small></p>
+                <div class="col-md-12 col-lg-6">
+                    <div class="card mb-4">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="image/images/course/course-3.png" class="w-100" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Javascript Basic to advanced</h5>
+                                    <p>The modern JavaScript course for everyone! Master JavaScript with projects,
+                                        challenges and theory. Many courses in one!</p>
+                                    <small class="card-text"><a class="navbar-brand text-body fs-5 fw-bold"
+                                            href="">price:$40</a></small>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- 4 -->
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="" class="img-fluid rounded-start" alt="...">
+                <div class="col-md-12 col-lg-6">
+                    <div class="card mb-4">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="image/images/course/course-4.png" class="w-100" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Javascript Basic to advanced</h5>
+                                    <p>The modern JavaScript course for everyone! Master JavaScript with projects,
+                                        challenges and theory. Many courses in one!</p>
+                                    <small class="card-text"><a class="navbar-brand text-body fs-5 fw-bold"
+                                            href="">price:$50</a></small>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Price: 20$</small></p>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="col-md-12 col-lg-6">
+                    <div class="card mb-4">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="image/images/course/course-5.png" class="w-100" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Javascript Basic to advanced</h5>
+                                    <p>The modern JavaScript course for everyone! Master JavaScript with projects,
+                                        challenges and theory. Many courses in one!</p>
+                                    <small class="card-text"><a class="navbar-brand text-body fs-5 fw-bold"
+                                            href="">price:$60</a></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="col-md-12 col-lg-6">
+                    <div class="card mb-4">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="image/images/course/course-6.png" class="w-100" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Javascript Basic to advanced</h5>
+                                    <p>The modern JavaScript course for everyone! Master JavaScript with projects,
+                                        challenges and theory. Many courses in one!</p>
+                                    <small class="card-text"><a class="navbar-brand text-body fs-5 fw-bold"
+                                            href="">price:$30</a></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mb-5">
+                <a class="btn btn-primary btn-lg rounded rounded-1" href="#">Explore More Courses</a>
+            </div>
+        </section>
+        <!-- course section end -->
+
+        <!-- Join Section start (Bonus) -->
+        <section class="container pink p-5 my-5 rounded">
+            <div class="row align-items-center">
+                <div class="text-white fs-4">
+                    <h1>Ready to join?</h1>
+                    <p>Lets connect each other [Candidate and Employers]</p>
+                </div>
+                <div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Registration
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- Join Section end (Bonus) -->
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
