@@ -1,3 +1,6 @@
 .pink{
     background-color: #D75281;
 }
+.myimage{
+    filter: brightness(60%);
+}
